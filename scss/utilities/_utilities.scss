@@ -3,3 +3,34 @@
  * UTILITIES
  * ----------------------------------------------------------------------------
  */
+
+.text-left {
+   text-align: left;
+}
+
+.text-right {
+   text-align: right;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.align-left {
+   // include from Compass
+   @include float-left;
+}
+
+.align-right {
+   // include from Compass
+   @include float-right;
+}
+
+.clearfix {
+   // include from Compass
+   @include clearfix;
+}
+
+
+
+
